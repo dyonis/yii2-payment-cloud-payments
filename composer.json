@@ -1,0 +1,28 @@
+{
+  "name": "dyonis/yii2-payment-cloud-payments",
+  "version": "1.0",
+  "description": "Yii2 Payment provider for CloudPayments",
+  "type": "library",
+  "keywords": ["yii2","extension","stripe", "payment"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Denys Shpuhanych"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "yiisoft/yii2": "^2.0.0",
+    "ext-json": "*"
+  },
+  "require-dev": {
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "dyonis\\yii2\\payment\\providers\\cloudPayments\\": "src"
+    }
+  }
+}
